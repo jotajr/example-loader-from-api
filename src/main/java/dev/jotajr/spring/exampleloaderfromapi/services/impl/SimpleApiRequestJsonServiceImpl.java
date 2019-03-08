@@ -1,6 +1,6 @@
 package dev.jotajr.spring.exampleloaderfromapi.services.impl;
 
-import dev.jotajr.spring.exampleloaderfromapi.beans.Weather;
+import dev.jotajr.spring.exampleloaderfromapi.beans.weather.Weather;
 import dev.jotajr.spring.exampleloaderfromapi.services.SimpleApiRequestJsonService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

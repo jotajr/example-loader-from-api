@@ -1,9 +1,10 @@
-package dev.jotajr.spring.exampleloaderfromapi.beans;
+package dev.jotajr.spring.exampleloaderfromapi.beans.weather;
 
 import java.util.List;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
+import dev.jotajr.spring.exampleloaderfromapi.beans.Parent;
 import org.apache.commons.lang3.builder.ReflectionToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
 

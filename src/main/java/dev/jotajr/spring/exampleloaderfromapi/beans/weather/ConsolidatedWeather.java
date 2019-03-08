@@ -1,4 +1,4 @@
-package dev.jotajr.spring.exampleloaderfromapi.beans;
+package dev.jotajr.spring.exampleloaderfromapi.beans.weather;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
