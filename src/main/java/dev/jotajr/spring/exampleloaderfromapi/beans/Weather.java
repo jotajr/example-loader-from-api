@@ -120,7 +120,7 @@ public class Weather {
 
     @Override
     public String toString() {
-        return ReflectionToStringBuilder.toString(this, ToStringStyle.JSON_STYLE);
+        return ReflectionToStringBuilder.toString(this, ToStringStyle.JSON_STYLE, true, true);
     }
 
 
