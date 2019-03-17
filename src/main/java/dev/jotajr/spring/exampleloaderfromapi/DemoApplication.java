@@ -33,11 +33,6 @@ public class DemoApplication implements CommandLineRunner {
         LOGGER.info("Final da execucao da aplicacao");
     }
 
-    /*@Bean
-    public CommandLineRunner run() {
-        return args -> simpleApiRequestJsonService.fazerRequestSimplesUtilizandoApiWeather();
-    }*/
-
     @Override
     public void run(String... args) throws Exception {
 
