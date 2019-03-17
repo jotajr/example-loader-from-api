@@ -60,6 +60,8 @@ public class OmdbApiServiceImpl implements OmdbApiService {
             LOGGER.info("GET Request was sucessfully");
             LOGGER.info("Parser da Response");
             String jsonResposta = EntityUtils.toString(response.getEntity());
+            LOGGER.debug("JSON Resposta:");
+            LOGGER.debug(jsonResposta);
             omdbBean = gson.fromJson(jsonResposta, OmdbBean.class);
             return omdbBean;
         } else {
